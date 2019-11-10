@@ -1,28 +1,40 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Map/>
+    <Menu/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Map from './components/Map.vue';
+import Menu from './components/Menu.vue';
+
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Map,
+    Menu
   }
 }
 </script>
 
 <style>
+/* @font-face {
+  font-family: "GillSans";
+  src: url("assets/fonts/GillSans.ttc") format("ttc");
+}
+@font-face {
+  font-family: "DIN Condensed Bold";
+  src: url("assets/fonts/DIN Condensed Bold.ttf") format("ttf");
+} */
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
+  
 }
 </style>
