@@ -1,87 +1,87 @@
 <template>
   <div class="menu">
-   <h1 class="header">OUR MENU</h1>
-  
-   <div class="cart">
-     
-      <div class="section" v-parallax="0.2">
-        <h2 class="section__header">STARTERS</h2>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-      </div>
+    <div class="border">
+       <div class="heading">
+          <h1>OUR MENU</h1>
+          <button class="btn" href="#">Know more</button>
+        </div>
 
-      <div class="section" v-parallax="-0.2">
-        <h2 class="section__header">STARTERS</h2>
+      <div class="section" data-aos="slide-up" data-aos-duration="800"  data-aos-easing="ease-in-sine"> 
+       <h2 class="section__header">STARTERS</h2>
           <div class="item">
             <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
+            <p class="item__description">Quinoa and cheddar croquettas with aji rocotto &amp; pineapple salsa (v)</p>
+            <div class="item__price"><span>£4.95</span></div>
           </div>
           <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-      </div>
-
-      <div class="section" v-parallax="-0.2">
-        <h2 class="section__header">STARTERS</h2>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
+            <h3 class="item__header">CHIFA CHICHARRONES</h3>
+            <p class="item__description">Slow cooked, crispy pork belly with sweet soy sauce</p>
+            <div class="item__price"><span>£6.95</span></div>
           </div>
           <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-      </div>
-
-      <div class="section" v-parallax="0.2">
-        <h2 class="section__header">STARTERS</h2>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
-          </div>
-          <div class="item">
-            <h3 class="item__header">QUINOA CROQUETTAS</h3>
-            <p class="item__description">)v( aslas elppaenip ottocor ija htiw satteuqorc raddehc dna aoniuQ</p>
-            <div class="item__price"><span>$4.95</span></div>
+            <h3 class="item__header">CALAMARES</h3>
+            <p class="item__description">Crispy baby squid with pickled
+             jalapeño miso salsa</p>
+            <div class="item__price"><span>£6.95</span></div>
           </div>
       </div>
     </div>
 
-</div>
+    <div class="border">
+      <div class="section" data-aos="slide-down" data-aos-duration="800"  data-aos-easing="ease-in-sine">
+        <h2 class="section__header">MAIN COURSES</h2>
+          <div class="item">
+            <h3 class="item__header">EL CLASICO</h3>
+            <p class="item__description">Sea bass ceviche with aji limo
+            tiger’s milk, sweet potato purée, choclo corn, red onion, coriander &amp; plantain (gf)</p>
+            <div class="item__price"><span>£8.95</span></div>
+          </div>
+          <div class="item">
+            <h3 class="item__header">TIRADITO CALLAO</h3>
+            <p class="item__description">Cobia tiradito with coriander tiger’s milk, black tobika, crème fraiche &amp; sweet potato crunchies</p>
+            <div class="item__price"><span>£8.95</span></div>
+          </div>
+      </div>
+    </div>
+    
+    <div class="border">
+      <div class="section">
+        <h2 class="section__header">SIDES</h2>
+          <div class="item">
+            <h3 class="item__header">SUPER POLLO</h3>
+            <p class="item__description">Marinated corn fed chicken pieces with rocotto salsa</p>
+            <div class="item__price"><span>£4.95</span></div>
+          </div>
+          <div class="item">
+            <h3 class="item__header">PATATAS FRITAS</h3>
+            <p class="item__description">Sweet potato fries with aji rocotto mayonnaise (v) </p>
+            <div class="item__price"><span>£3.95</span></div>
+          </div>
+      </div>
+    </div>
+
+    <div class="border">
+      <div class="section">
+        <h2 class="section__header">DESSERTS</h2>
+          <div class="item">
+            <h3 class="item__header">ICECREAM</h3>
+            <p class="item__description">Lorem ipsum dolor sit amet salerma petrum sea</p>
+            <div class="item__price"><span>£3.95</span></div>
+          </div>
+          <div class="item">
+            <h3 class="item__header">TIRAMISU</h3>
+            <p class="item__description">Lorem ipsum dolor sit amet salerma petrum sea</p>
+            <div class="item__price"><span>£3.95</span></div>
+          </div>
+          <div class="item">
+            <h3 class="item__header">CHOCOLATE BROWNIE</h3>
+            <p class="item__description">Lorem ipsum dolor sit amet salerma petrum sea</p>
+            <div class="item__price"><span>£3.95</span></div>
+          </div>
+      </div>
+    </div>
+  </div>
+
 </template>
 
 
@@ -96,39 +96,107 @@ export default {
 <style lang="scss" scoped>
   $background: #F8F8F8;
   $accent: #FFDAC9;
+  $grey: #767676;
+  $blackish: #333333;
+  $fontDin: DIN Condensed Bold;
+  $fontGill: GillSans;
+ 
 
   .menu {
     background-color: $background;
     width: 100%;
     height: auto;
+    display: grid;
+    color: $blackish;
+    grid-template-columns: 30% 20% 20% 30%;
+   // grid-template-rows: 20% 80%;
   }
 
-  h1 {
-    font-size: 50px;
+  .heading {
+    width: 100vw;
     text-align: center;
-    text-transform: uppercase;
-  }
 
-  h1.header {
-     position: relative;
-     z-index: 1;
-    
-    &:before {
-        border-top: 4px solid $accent;
-        content: '';
-        margin: 0 auto;
-        position: absolute;
-        top: 50%; left: 0; right: 0; bottom: 0;
-        width: 20%;
-        z-index: -1;
+     h1 {
+      font-size: 50px;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 20px;
+      letter-spacing: -1px;
+        position: relative;
+        z-index: 1;
+
+          &:before {
+            border-top: 4px solid $accent;
+            content: '';
+            margin: 0 auto;
+            position: absolute;
+            top: 50%; left: 0; right: 0; bottom: 0;
+            width: 20%;
+            z-index: -1;
+          }
+    }
+
+      .btn {
+      padding: 7px;
+      text-transform: uppercase;
+      background-color: $accent;
+      font-size: 15px;
+      font-weight: 600;
+      border: transparent;
+      text-align: center;
+      margin-top: 5px;
+      position: absolute;
+      z-index: 1;
     }
   }
 
-  .cart {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "section section section section"
+ 
+  .border:not(:last-child) {
+        border-right: 1px solid $grey;
+  }
+  
+
+
+  .section {
+    padding: 30px;
+    font-family: $fontGill;
+
+    &__header {
+      padding-top: 65%;
+      font-size: 50px;
+      font-weight: 200;
+      letter-spacing: -4px;
+      margin-bottom: 0;
+    }
+  }
+
+  .item {
+    text-align: left;
+    //padding: 0 30px 50px 30px;
+
+    &__header {
+      padding: 40% 0 5% 0;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -1px;
+    }
+
+    &__description {
+      font-size: 15px;
+      font-weight: 400;
+      color: $grey;
+      letter-spacing: 1px;
+      padding: 2% 0;
+    }
+
+    &__price {
+      border: 2px solid $accent; 
+      width: 20%;
+      text-align: center;
+      padding: 5px;
+      margin-top: 5%;
+    }
   }
 
 
