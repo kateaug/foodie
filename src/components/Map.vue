@@ -3,7 +3,7 @@
     <GmapMap
     v-bind:center="{lat: 51.512500, lng: -0.127120}"
     v-bind:zoom="14"
-    style="width: 100%; height: 300px"
+    style="width: 100%; height: 500px"
     v-bind:options="mapStyle"
     >
       <GmapMarker

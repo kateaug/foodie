@@ -57,6 +57,7 @@ export default {
 <style lang="scss" scoped>
   $background: #F8F8F8;
   $accent: #FFDAC9;
+  $grey: #767676;
   $fontDin: DIN Condensed Bold;
   $fontGill: GillSans;
 
@@ -66,8 +67,8 @@ export default {
         padding: 7% 2% 4% 2%;
         display: grid;
         grid-template-columns: 50% 50%;
-
-              background-image: url("../assets/img/background.svg");
+        overflow: hidden;
+        background-image: url("../assets/img/background.svg");
         background-repeat: no-repeat;
         background-position: 76% 44%;
         
@@ -132,7 +133,12 @@ export default {
         text-align: center;
         justify-self: end;
         margin: 2% 32% 0 0;
-        // margin: 5px 150px 0 0;
+        transition: all 0.2s;
+
+            &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 1rem 1rem rgba($grey, .6);
+            }
 
     }
 

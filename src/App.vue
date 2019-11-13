@@ -2,18 +2,22 @@
   <div id="app">
     <Hero/>
     <Community/>
-    <!-- <Map/> -->
+    <Map/>
     <Menu/>
+    <Footer/>
+
   </div>
 </template>
 
 <script>
 import Hero from './components/Hero.vue';
 import Community from './components/Community.vue';
-// import Map from './components/Map.vue';
+import Map from './components/Map.vue';
 import Menu from './components/Menu.vue';
+import Footer from './components/Footer.vue';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 
 
 export default {
@@ -24,8 +28,9 @@ export default {
   components: {
     Hero,
     Community,
-    // Map,
-    Menu
+    Map,
+    Menu,
+    Footer
   }
 }
 </script>
