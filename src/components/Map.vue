@@ -1,19 +1,20 @@
 <template>
   <div class="map">
-    <GmapMap
-    v-bind:center="{lat: 51.512500, lng: -0.127120}"
-    v-bind:zoom="14"
+    <gmap-map
+    :center="{lat: 51.512500, lng: -0.127120}"
+    :zoom="14"
     style="width: 100%; height: 500px"
-    v-bind:options="mapStyle"
+    :options="mapStyle"
     >
-      <GmapMarker
-        v-bind:key="index"
+      <gmap-marker
+        :key="index"
         v-for="(m, index) in markers"
-        v-bind:position="m.position"
-        v-bind:clickable="true"
-        v-bind:draggable="true"
-        @click="center=m.position"/> 
-    </GmapMap>
+        :position="m.position"
+        :clickable="true"
+        :draggable="true"
+        @click="center=m.position"> 
+       </gmap-marker>
+    </gmap-map>
 </div>
 </template>
 
@@ -120,7 +121,6 @@ export default {
         {
             name: "House of Aleida Greve",
             description: "description 1",
-            date_build: "",
             position: {lat: 51.512500, lng: -0.127120}
         }
       ]
@@ -133,4 +133,9 @@ export default {
 </script>
 
 <style scoped>
+
+ .location {
+     width: 30%;
+     height: 200px;
+ }
 </style>

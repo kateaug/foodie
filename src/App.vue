@@ -48,6 +48,7 @@ export default {
     src: url("~@/assets/fonts/DINCondensedBold.ttf") format('ttf')
 }
 
+
 html,
   body
   {

@@ -35,22 +35,22 @@ $white: #fff;
         left: 50%;
         transform: translate(-50%, -50%);
 
-        h1 {
-          font-size: 65px;
-          font-weight: 600;
-          letter-spacing: -2px;
-        }
+          h1 {
+            font-size: 65px;
+            font-weight: 600;
+            letter-spacing: -2px;
+          }
 
-        h2 {
-          padding-top: 10px;
-          font-size: 30px;
-          font-weight: 600;
-          letter-spacing: -2px;
-        }
+          h2 {
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: -2px;
+          }
 
-        &-bolder {
-          font-size: 85px;
-        }
+          &-bolder {
+            font-size: 85px;
+          }
      }
 
      &__wrapper {

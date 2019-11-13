@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'YOUR_API_KEY',
-  },
+  }
 })
 Vue.use(VueParallaxJs)
 
